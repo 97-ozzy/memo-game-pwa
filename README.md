@@ -1,6 +1,36 @@
-# memo-game-pwa
+# Memo Game PWA
 
-This is web memoriztion game, but it's also progressive web app, so I can upload it on Google Play Market.
-Built with React, Firebase and Workbox for PWA.
+`memo-game-pwa` — браузерная игра на запоминание парных карточек, реализованная как Progressive Web App.
 
-![ezgif-2-6b5a384dbd](https://github.com/97-ozzy/memo-game/assets/127320788/9c673b67-48c2-4fb5-bcc5-962f6d6eb5f3)
+Игрок открывает карточки, запоминает их расположение и ищет совпадающие пары. Цель — найти все пары за минимальное количество ходов и времени.
+
+
+## PWA
+
+Проект поддерживает формат Progressive Web App.
+
+Это позволяет:
+
+- открыть игру в браузере;
+- добавить приложение на главный экран;
+- запускать игру в отдельном окне;
+- использовать приложение на мобильных устройствах как обычную игру.
+
+## Стек
+
+- JavaScript / TypeScript
+- HTML
+- CSS
+- PWA
+- Service Worker
+- Web App Manifest
+
+> Если проект собран на React, Vite или другом фреймворке, укажите это в разделе после проверки `package.json`.
+
+## Установка
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/97-ozzy/memo-game-pwa.git
+cd memo-game-pwa
